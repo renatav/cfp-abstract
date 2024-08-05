@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.16)  5 AUG 2024 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.16)  5 AUG 2024 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,61 +303,61 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 59.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-3.
+6.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation `CPSQ2020' on page 1 undefined on input line 73.
+LaTeX Warning: Citation `CPSQ2020' on page 1 undefined on input line 76.
 
 
 LaTeX Warning: Citation `gopstein2018prevalence' on page 1 undefined on input l
-ine 84.
+ine 87.
 
 
-LaTeX Warning: Citation `langhout2021atoms' on page 1 undefined on input line 8
-9.
+LaTeX Warning: Citation `langhout2021atoms' on page 1 undefined on input line 9
+2.
 
 
-LaTeX Warning: Citation `mendes2021bohr' on page 1 undefined on input line 89.
+LaTeX Warning: Citation `mendes2021bohr' on page 1 undefined on input line 92.
 
 
-LaTeX Warning: Citation `mendes2022dazed' on page 1 undefined on input line 89.
+LaTeX Warning: Citation `mendes2022dazed' on page 1 undefined on input line 92.
 
 
 
 LaTeX Warning: Citation `torres2023investigation' on page 1 undefined on input 
-line 89.
+line 92.
 
 
-LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 8
-9.
+LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 9
+2.
 
 
 LaTeX Warning: Citation `Manor2018AtomsConfusionSwift' on page 1 undefined on i
-nput line 89.
+nput line 92.
 
 
-LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 8
-9.
+LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 9
+2.
 
 
-LaTeX Warning: Citation `yeh2017detecting' on page 1 undefined on input line 89
+LaTeX Warning: Citation `yeh2017detecting' on page 1 undefined on input line 92
 .
 
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
@@ -366,7 +366,7 @@ ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
-45.
+48.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
@@ -374,16 +374,16 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 <fig1.png, id=18, 249.3315pt x 189.22694pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 250.
+Package pdftex.def Info: fig1.png  used on input line 253.
 (pdftex.def)             Requested size: 249.33087pt x 189.22647pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-61.
+64.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
  [3 <./fig1.png (PNG copy)>]
 
 ** Conference Paper **
@@ -402,18 +402,15 @@ Before submitting the final camera ready copy, remember to:
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4350 strings out of 476025
- 68011 string characters out of 5790016
+ 4336 strings out of 476025
+ 67877 string characters out of 5790016
  1869388 words of memory out of 5000000
- 24745 multiletter control sequences out of 15000+600000
- 563706 words of font info for 134 fonts, out of 8000000 for 9000
+ 24737 multiletter control sequences out of 15000+600000
+ 558950 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,62p,768b,304s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,62p,768b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
@@ -425,7 +422,7 @@ e/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/tex
 mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2023/texmf-dist/f
 onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on IEEE-conference-template-062824.pdf (4 pages, 150536 bytes).
+Output written on IEEE-conference-template-062824.pdf (4 pages, 149497 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
