@@ -29,7 +29,8 @@
   \newcommand{\todo}[1]{}
 \fi
 
-\title{Rooting Out Atoms Of Confusion -- A Call To Action}
+\title{Encourage, Engage, and
+Enhance a Community for Atoms of Confusion}
 
 \author{Justin Cappos${}^{\rm ny}$ \qquad Dan Gopstein${}^{\rm ny}$ \qquad Renata Vaderna${}^{\rm ny}$ \qquad Yanyan Zhuang${}^{\rm co}$\\
 ${}^{\rm ny}$\,New York University 
@@ -46,8 +47,7 @@ These small code patterns, named atoms of confusion
 (or atoms for short), are correlated with many bugs in software. This finding has been replicated by many 
 research teams. For example, atoms have been validated 
 in different programming languages including Java and 
-Python, and in a variety of ways such as using an 
-electroencephalogram (EEG) device.
+Python, and in a variety of ways such as using an EEG device.
 
 Since we have a growing community of academic teams, 
 we have set out to put our work into practice by 
@@ -84,7 +84,7 @@ Ensuring that software is understandable to
 humans is crucial yet challenging, often approached ad hoc.
 
 Our research has delved into the causes of code confusion for 
-human developers. We have identified and empirically validated 
+human developers. We have empirically validated 
 small C code patterns, termed \emph{atoms of confusion}, which 
 programmers often misinterpret~\cite{gopstein2017understanding}. Analyzing 14 large C projects 
 revealed hundreds of thousands of these atoms, highly 
@@ -96,7 +96,7 @@ This body of work has inspired a breadth of subsequent studies
 across various programming languages, employing methodologies 
 like eye-tracking and EEG to probe deeper into how programmers 
 interact with these confusing elements 
-\cite{langhout2021atoms, mendes2021bohr, mendes2022dazed, 
+\cite{langhout2021atoms, mendes2022dazed, 
 torres2023investigation, dacosta2023seeing, 
 Manor2018AtomsConfusionSwift, yeh2017detecting}.
 
@@ -117,30 +117,34 @@ Ever since the work by Gopstein et al.~\cite{gopstein2017understanding}, over a 
 
 \section{Enhancing Community Engagement}
 
+With the community's enthusiasm, however, comes the different definitions and execution in these works that led to divergent uses of our original concept. In this section, we outline our effort to unify the research community and apply our work in collaboration with the industry.
 
+\subsection{Community Meetings}
 In our previous experience, organizing community meetings has 
-proven to be an effective method for gathering individuals who 
-are passionate about specific fields or projects. Since the 
-beginning of this year, we have initiated bimonthly meetings 
-to cultivate a strong sense of community among researchers 
-interested in this field. During these gatherings, we 
-encourage members to introduce themselves and to share both 
-past and recent research. We ensure that lists of all 
-published papers are readily accessible, and distribute notes 
-and slides from presentations. Our primary aim is to establish 
-a supportive platform where every participant can showcase 
+proven to be effective in gathering individuals who 
+are passionate about a research project. 
+Since January 2024, we have initiated bimonthly meetings 
+to cultivate a strong sense of community among researchers. 
+%During these gatherings, we 
+%encourage members to introduce themselves and to share both 
+%past and recent research. 
+%We ensure that lists of all 
+%published papers are readily accessible, and distribute notes 
+%and slides from presentations. 
+Our goal is to establish 
+a supportive platform where  participants can share 
 their work and engage in constructive feedback exchanges 
 within the community.
-
-Furthermore, we've initiated discussions on challenges 
-particularly relevant to those studying code confusion, such 
-as conducting user studies. We hope that members of the 
-community who are new to this area can learn from and seek 
-guidance from experienced researchers who have conducted 
-several user studies.
-
-Another challenge we've tackled is the varied interpretations 
-of what constitutes an atom of confusion. We've organized 
+%
+%Furthermore, we initiated discussions on challenges 
+%particularly relevant to those studying code confusion, such 
+%as conducting user studies. We hope that members of the 
+%community who are new to this area can learn from and seek 
+%guidance from experienced researchers who have conducted 
+%several user studies.
+%
+Another challenge is the varied interpretations 
+of what constitutes an atom. We organized 
 meetings specifically focused on this issue, presenting 
 multiple code snippets that have been seen by some as atoms of 
 confusion, while others may not find them confusing. These 
@@ -149,13 +153,13 @@ further exploration into understanding these divisive
 elements.
 
 
-\subsection{A Framework for Classifying Atoms of Confusion}
+\subsection{A Framework for Parsing Atoms of Confusion}
 
 We have identified a core issue arising from the absence of a 
 formal definition of what constitutes an atom of confusion. 
-While our previous classifiers \cite{gopstein2018prevalence} 
-have shown correlations between atoms of confusion, bugs, and 
-confusing code, they have not succeeded in providing clear 
+While our previous parsers \cite{gopstein2018prevalence} 
+have shown correlations between atoms, bugs, and 
+code comments, they have not succeeded in providing clear 
 definitions. Our goal is to develop a precise, easily 
 extendable, and reproducible methodology for classifying 
 specific code patterns as atoms. To this end, we are actively 
