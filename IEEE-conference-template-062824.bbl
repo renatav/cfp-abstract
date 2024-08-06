@@ -56,11 +56,6 @@ D.~Gopstein, H.~H. Zhou, P.~Frankl, and J.~Cappos.
 \newblock In {\em Proceedings of the 15th International Conference on Mining
   Software Repositories}, pages 281--291, 2018.
 
-\bibitem{hotelling1931}
-H.~Hotelling.
-\newblock The generalization of student's ratio.
-\newblock {\em Annals of Mathematical Statistics}, 2(3):360--378, 1931.
-
 \bibitem{langhout2021atoms}
 C.~Langhout and M.~Aniche.
 \newblock Atoms of confusion in java.

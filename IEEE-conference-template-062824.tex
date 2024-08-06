@@ -47,9 +47,16 @@ These small code patterns, named atoms of confusion
 (or atoms for short), are correlated with many software bugs. This finding has been replicated by numerous 
 research teams. For example, atoms have been validated in different programming languages including Java and Python, and through various methods such as using an EEG device.
 
-To engage a growing community, we have set out to put our work into practice by bridging the gap between academia and industry. We have been working to deploy atom parsers in the Linux kernel, and developing data sharing and visualization tools with the Linux Foundation. 
-%to host in a neutral, industry-facing manner. 
-We plan to build a broader community through academia-industry collaboration, encouraging, engaging, and enhancing community connections to grow into a large open-source ecosystem. We invite you to join us!
+To engage a growing community, we have set out to put our work 
+into practice by bridging the gap between academia and 
+industry. We have been working to deploy atom parsers in the 
+Linux kernel and developing data sharing and visualization 
+tools with the Linux Foundation. We plan to build a broader 
+community through academia-industry collaboration, 
+encouraging, engaging, and enhancing community connections to 
+grow into a large open-source ecosystem. We invite you to join 
+us!
+
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -185,10 +192,7 @@ practical impact of our work and highlights the importance of
 ongoing collaboration with the industry. Below, we provide two 
 more examples of such collaboration.
 
-\textbf{Coccinelle}
-
-
-Coccinelle is a tool widely used to detect and fix issues,
+\textbf{Coccinelle} is a tool widely used to detect and fix issues,
 as well as perform refactoring, in the Linux kernel code.
 It allows users to specify patterns of interest in any C code and,
 optionally, their replacements using the Semantic Patch Language.
@@ -197,20 +201,20 @@ of files across thousands of code sites by abstracting away specific details
 and variations \cite{coccinelle}.
 
 Given its extensive use, and in collaboration with the 
-maintainers of Coccinelle, we have implemented atoms parsers using Coccinelle.
-While our primary focus is on the Linux kernel, Coccinelle can be used to
-process any C code. Consequently, the semantic patches we have 
-developed for detecting atoms can also be applied to other C 
-codebases. We have implemented parsers for the detection of 14
-out of 15 identified atoms, excluding only one that is beyond 
-Coccinelle's capabilities. All these semantic patches are 
-available in our GitHub repository \cite{githubcocci}.
-
+maintainers of Coccinelle, we have implemented atom parsers 
+using this tool. While our primary focus is on the Linux 
+kernel, Coccinelle can be used to process any C code. 
+Consequently, the parsers we have developed for detecting 
+atoms can also be applied to other C codebases. We have 
+implemented parsers for the detection of 14 out of 15 
+identified atoms, excluding only one that is beyond 
+Coccinelle's capabilities. All these parsers are available in 
+our GitHub repository \cite{githubcocci}.
 
 Additionally, to further encourage collaboration between 
-academia and industry, we dedicated one of our audience
+academia and industry, we dedicated one of our community 
 meetings to Coccinelle. We invited a key contributor to 
-Coccinelle to present the tool to our audience, with a 
+Coccinelle to present the tool to our community, with a 
 specific focus on detecting atoms. This initiative brings us a 
 step closer to bridging the gap between academic research and 
 practical industry applications.
