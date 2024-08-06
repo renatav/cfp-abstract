@@ -141,34 +141,29 @@ elements.
 
 \subsection{A Framework for Parsing Atoms of Confusion}
 
-We have identified a core issue arising from the absence of a 
-formal definition of what constitutes an atom of confusion. 
 While our previous parsers \cite{gopstein2018prevalence} 
 have shown correlations between atoms, bugs, and 
 code comments, they have not succeeded in providing clear 
 definitions. Our goal is to develop a precise, easily 
-extendable, and reproducible methodology for classifying 
+extendable, and reproducible methodology for identifying
 specific code patterns as atoms. To this end, we are actively 
-developing a framework that includes mathematical guidelines 
-to determine what is and isn't an atom. This framework is not 
-only designed to support hypothesis testing among community 
-members but also to pave the way for future applications to 
-explore atoms in various programming languages. This effort 
-builds upon our findings that increased frequencies of 
-comments and bug fixes often indicate the presence of atoms, 
-reinforcing their significant impact on software reliability.
+developing a framework that includes guidelines 
+to determine what is and is not an atom, based on our findings that increased occurrences of 
+comments and bug fixes are often correlated with the presence of atoms. 
 
-The main idea behind this ongoing research is to count 
-occurrences of all AST subtrees within large open source 
-projects, as well as in bugfix commits and commented code 
-snippets, looking for patterns with high frequencies of 
-bugfixes and comments. The next step involves applying a formal statistical method, such as Hotelling’s T-Square method \cite{hotelling1931}, to clearly distinguish atom candidates from non-atoms. This approach aims 
-to provide a more precise and objective answer to questions 
-about questionable patterns, potentially uncovering additional 
+First, we count the 
+occurrences of all Abstract Syntax Tree (AST) subtrees within a large open-source 
+project, as well as bug-fix commits and commented code 
+snippets. Next, we look for patterns of code that are correlated (or not correlated) with high frequencies of 
+bug fixes and comments. The former patterns are identified as atoms. Next, to test the significance in correlation, we will apply a formal statistical method like Hotelling’s T-Square method, to distinguish atoms from non-atoms. This approach aims 
+to provide a precise and objective answer to identify atoms, potentially uncovering additional 
 confusing patterns that were previously unrecognized. 
-Additionally, researchers should be able to apply different 
-metrics, adding new dimensions or substituting the measures of 
-bugfix and comment frequencies.
+Finally, researchers will be able to apply different 
+metrics other than comments and bug-fix frequencies by adding new dimensions, or substituting the measures we have chosen.
+This framework is  
+designed to support hypothesis testing among the community 
+members, assist future projects to 
+explore atoms in various programming languages, and enhance software reliability. 
 
 
 \subsection{Collaboration with the Industry}
