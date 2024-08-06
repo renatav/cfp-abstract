@@ -183,22 +183,22 @@ the potential for the practical impact of our work and
 highlights the importance of ongoing collaboration with 
 the industry. In the following we give two more examples of such collaboration. 
 
-\textbf{Coccinelle.}
+\textbf{Coccinelle}
 %
-The tool widely used to detect issues and refactor certain 
-parts of the Linux kernel code is Coccinelle. Coccinelle is a 
-program matching and transformation engine that provides the 
-Semantic Patch Language (SmPL) for specifying desired matches 
-and transformations in C code. It was initially designed to 
-document and automate collateral evolutions in device driver 
-code. Unlike traditional patches, which are limited to 
-specific instances, Coccinelle's semantic patches can modify 
+is a tool that is widely used to detect issues and refactor the Linux kernel code. It allows
+%program matching and transformation engine that provides the 
+%Semantic Patch Language (SmPL) for 
+a user to specify desired patterns  
+and refactoring in C code. 
+%It was initially designed to 
+%document and automate collateral evolutions in device driver code. 
+Unlike traditional patches, Coccinelle's semantic patches can modify 
 hundreds of files across thousands of code sites by 
 abstracting away specific details and variations \cite{coccinelle}.
 
-Given its extensive use, and in direct collaboration with the 
-maintainers of Coccinelle, we are implementing the detection 
-of atoms using Coccinelle. While our primary focus is on 
+Given its extensive use, and our direct collaboration with the 
+maintainers of Coccinelle, we are implementing  
+atom parsers using Coccinelle. While our primary focus is on 
 deployment within the Linux kernel, Coccinelle can be used to 
 process any C code. Consequently, the semantic patches we have 
 developed to detect atoms can also be applied to other C 
