@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.25)  5 AUG 2024 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.25)  5 AUG 2024 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,57 +303,44 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
-
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
-
-
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-8.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+6.
 
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Citation `CPSQ2020' on page 1 undefined on input line 78.
+LaTeX Warning: Citation `CPSQ2020' on page 1 undefined on input line 66.
 
 
 LaTeX Warning: Citation `gopstein2018prevalence' on page 1 undefined on input l
-ine 82.
+ine 70.
 
 
-LaTeX Warning: Citation `langhout2021atoms' on page 1 undefined on input line 8
-4.
+LaTeX Warning: Citation `langhout2021atoms' on page 1 undefined on input line 7
+2.
 
 
-LaTeX Warning: Citation `mendes2021bohr' on page 1 undefined on input line 84.
+LaTeX Warning: Citation `mendes2021bohr' on page 1 undefined on input line 72.
 
 
-LaTeX Warning: Citation `mendes2022dazed' on page 1 undefined on input line 84.
+LaTeX Warning: Citation `mendes2022dazed' on page 1 undefined on input line 72.
 
 
 
 LaTeX Warning: Citation `torres2023investigation' on page 1 undefined on input 
-line 84.
+line 72.
 
 
-LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 8
-4.
+LaTeX Warning: Citation `dacosta2023seeing' on page 1 undefined on input line 7
+2.
 
 
 LaTeX Warning: Citation `Manor2018AtomsConfusionSwift' on page 1 undefined on i
-nput line 84.
+nput line 72.
 
 
-LaTeX Warning: Citation `yeh2017detecting' on page 1 undefined on input line 84
+LaTeX Warning: Citation `yeh2017detecting' on page 1 undefined on input line 72
 .
 
 [1{C:/Users/renat/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program 
@@ -363,20 +350,38 @@ Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
 ]
 
 LaTeX Warning: Citation `gopstein2018prevalence' on page 2 undefined on input l
-ine 101.
+ine 89.
 
+
+LaTeX Warning: Citation `coccinelle' on page 2 undefined on input line 98.
+
+
+LaTeX Warning: Citation `githubcocci' on page 2 undefined on input line 100.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119
+.
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119
+.
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 <fig1.png, id=9, 249.3315pt x 189.22694pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 141.
+Package pdftex.def Info: fig1.png  used on input line 134.
 (pdftex.def)             Requested size: 249.33087pt x 189.22647pt.
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 1
-52.
+45.
+
 (C:\Program Files\MiKTeX\tex/latex/psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 145.
  [2 <./fig1.png (PNG copy)>]
 
 ** Conference Paper **
@@ -389,9 +394,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
-
-] (IEEE-conference-template-062824.aux)
+[3] (IEEE-conference-template-062824.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -402,20 +405,20 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4280 strings out of 474486
- 66731 string characters out of 5753570
- 1943542 words of memory out of 5000000
- 26523 multiletter control sequences out of 15000+600000
- 602003 words of font info for 124 fonts, out of 8000000 for 9000
+ 4258 strings out of 474486
+ 66389 string characters out of 5753570
+ 1941542 words of memory out of 5000000
+ 26502 multiletter control sequences out of 15000+600000
+ 597583 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1025b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1025b,306s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
 m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
 b><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
 iKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on IEEE-conference-template-062824.pdf (3 pages, 111643 bytes).
+Output written on IEEE-conference-template-062824.pdf (3 pages, 113429 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
