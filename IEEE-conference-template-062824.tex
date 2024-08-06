@@ -13,6 +13,21 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \begin{document}
 
+\newif\ifrev
+%%%%%%%%%%%%%%%%%%
+% COMMENT OUT NEXT LINE TO HIDE COMMENTS
+\revtrue
+%%%%%%%%%%%%%%%%%%
+\ifrev
+  \newcommand{\yanyan}[1]{{\color{blue} [Yanyan: #1]}}
+  \newcommand{\red}[1]{\textcolor{red}{#1}}
+  \newcommand{\todo}[1]{\textcolor{red}{\textbf{Anyone todo}: #1}}
+\else
+  \newcommand{\yanyan}[1]{}
+  \newcommand{\red}[1]{}
+  \newcommand{\todo}[1]{}
+\fi
+
 \title{Rooting Out Atoms Of Confusion -- A Call To Action}
 
 \author{\IEEEauthorblockN{Justin Cappos}
@@ -51,7 +66,7 @@ ways, including brain wave scans with EEGs.   ...
 We are a growing  community of academics which are bridging the industry / 
 academic gap to put these ideas in practice.  We are currently adding data 
 sharing and visualization tools, which are working with the Linux Foundation 
-to host in a neutral, industry facing manner.  We 
+to host in a neutral, industry facing manner. \yanyan{This sentence has grammar issues?}  We 
 have been working to deploy Atoms checking in the Linux Kernel and are also 
 building a broader community through deep connections into large open source
 ecosystems.  We invite you to join us!
