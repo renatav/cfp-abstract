@@ -176,35 +176,21 @@ reliability.
 
 \subsection{Collaboration with the Industry}
 
-We aim for our research to go beyond the 
-academic borders and have a greater impact in the industry. 
-Our previous research helped identify and fix several Linux kernel bugs caused by macros, often occurring when developers incorrectly parenthesize one or more arguments. This success demonstrates 
-the potential for the practical impact of our work and 
-highlights the importance of ongoing collaboration with 
-the industry. In the following we give two more examples of such collaboration. 
+We aim for our research to go beyond academic borders and have 
+a greater impact in the industry. Our previous research helped 
+identify and fix several Linux kernel bugs caused by macros, 
+often occurring when developers incorrectly parenthesized one 
+or more arguments. This success demonstrates the potential 
+practical impact of our work and highlights the importance of 
+ongoing collaboration with the industry. Below, we provide two 
+more examples of such collaboration.
 
 \textbf{Coccinelle}
-%
-is a tool that is widely used to detect issues and refactor the Linux kernel code. It allows
-%program matching and transformation engine that provides the 
-%Semantic Patch Language (SmPL) for 
-a user to specify desired patterns  
-and refactoring in C code. 
-%It was initially designed to 
-%document and automate collateral evolutions in device driver code. 
-Unlike traditional patches, Coccinelle's semantic patches can modify 
-hundreds of files across thousands of code sites by 
-abstracting away specific details and variations \cite{coccinelle}.
 
-Given its extensive use, and our direct collaboration with the 
-maintainers of Coccinelle, we are implementing  
-atom parsers using Coccinelle. While our primary focus is on 
-deployment within the Linux kernel, Coccinelle can be used to 
-process any C code. Consequently, the semantic patches we have 
-developed to detect atoms can also be applied to other C 
-codebases. We have implemented patches for the detection of 14 
-out of 15 identified atoms, excluding only one that is beyond 
-Coccinelle's capabilities. All these semantic patches are available in our GitHub repository \cite{githubcocci}. 
+Coccinelle is a tool widely used to detect and fix issues, as well as perform refactoring, in the Linux kernel code. It allows users to specify patterns of interest in any C code and, optionally, their replacements using the Semantic Patch Language. Unlike traditional patches, Coccinelle's semantic patches can modify hundreds of files across thousands of code sites by abstracting away specific details and variations \cite{coccinelle}.
+
+Given its extensive use, and in collaboration with the maintainers of Coccinelle, we have implemented semantic patches for detecting atoms. While our primary focus is on deployment within the Linux kernel, Coccinelle can be used to process any C code. Consequently, the semantic patches we have developed for detecting atoms can also be applied to other C codebases. We have implemented patches for the detection of 14 out of 15 identified atoms, excluding only one that is beyond Coccinelle's capabilities. All these semantic patches are available in our GitHub repository \cite{githubcocci}.
+
 
 Additionally, to further encourage collaboration between 
 academia and industry, we dedicated one of our community 
