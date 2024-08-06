@@ -17,7 +17,7 @@
 \newif\ifrev
 %%%%%%%%%%%%%%%%%%
 % COMMENT OUT NEXT LINE TO HIDE COMMENTS
-\revtrue
+%\revtrue
 %%%%%%%%%%%%%%%%%%
 \ifrev
   \newcommand{\yanyan}[1]{{\color{blue} [Yanyan: #1]}}
@@ -187,24 +187,30 @@ more examples of such collaboration.
 
 \textbf{Coccinelle}
 
-Coccinelle is a tool widely used to detect and fix issues, as well as perform refactoring, in the Linux kernel code. It allows users to specify patterns of interest in any C code and, optionally, their replacements using the Semantic Patch Language. Unlike traditional patches, Coccinelle's semantic patches can modify hundreds of files across thousands of code sites by abstracting away specific details and variations \cite{coccinelle}.
+
+Coccinelle is a tool widely used to detect and fix issues,
+as well as perform refactoring, in the Linux kernel code.
+It allows users to specify patterns of interest in any C code and,
+optionally, their replacements using the Semantic Patch Language.
+Unlike traditional patches, Coccinelle's semantic patches can modify hundreds
+of files across thousands of code sites by abstracting away specific details
+and variations \cite{coccinelle}.
 
 Given its extensive use, and in collaboration with the 
-maintainers of Coccinelle, we have implemented semantic 
-patches for detecting atoms. While our primary focus is on 
-deployment within the Linux kernel, Coccinelle can be used to 
+maintainers of Coccinelle, we have implemented atoms parsers using Coccinelle.
+While our primary focus is on the Linux kernel, Coccinelle can be used to
 process any C code. Consequently, the semantic patches we have 
 developed for detecting atoms can also be applied to other C 
-codebases. We have implemented patches for the detection of 14 
+codebases. We have implemented parsers for the detection of 14
 out of 15 identified atoms, excluding only one that is beyond 
 Coccinelle's capabilities. All these semantic patches are 
 available in our GitHub repository \cite{githubcocci}.
 
 
 Additionally, to further encourage collaboration between 
-academia and industry, we dedicated one of our community 
+academia and industry, we dedicated one of our audience
 meetings to Coccinelle. We invited a key contributor to 
-Coccinelle to present the tool to our community, with a 
+Coccinelle to present the tool to our audience, with a 
 specific focus on detecting atoms. This initiative brings us a 
 step closer to bridging the gap between academic research and 
 practical industry applications.
