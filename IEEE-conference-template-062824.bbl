@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{coccinelle}
+Coccinelle.
+\newblock \url{https://coccinelle.gitlabpages.inria.fr/website/}.
+\newblock Accessed: August 5, 2024.
+
+\bibitem{dacosta2023seeing}
+J.~da~Costa, R.~Gheyi, F.~Castor, P.~de~Oliveira, M.~Ribeiro, and B.~Fonseca.
+\newblock Seeing confusion through a new lens: on the impact of atoms of
+  confusion on novices' code comprehension.
+\newblock {\em Empirical Software Engineering}, 28(4):81, 2023.
+\newblock Epub 2023 May 18. PMID: 37220598; PMCID: PMC10193347.
+
+\bibitem{CPSQ2020}
+C.~for Information \& Software~Quality.
+\newblock The cost of poorsoftware quality in the us: A 2020 report.
+\newblock \url{https://www.it-cisq.org/cisq-files/pdf/CPSQ-2020-report.pdf},
+  2020.
+\newblock Accessed: \today.
+
+\bibitem{githubcocci}
+Coccinelle atom finder.
+\newblock \url{https://github.com/AtomsofConfusion/atom-finder-coccinelle}.
+\newblock Accessed: August 5, 2024.
+
+\bibitem{gopstein2018prevalence}
+D.~Gopstein, H.~H. Zhou, P.~Frankl, and J.~Cappos.
+\newblock Prevalence of confusing code in software projects: Atoms of confusion
+  in the wild.
+\newblock In {\em Proceedings of the 15th International Conference on Mining
+  Software Repositories}, pages 281--291. ACM, 2018.
+
+\bibitem{langhout2021atoms}
+C.~Langhout and M.~Aniche.
+\newblock Atoms of confusion in java.
+\newblock In {\em 2021 IEEE/ACM 29th International Conference on Program
+  Comprehension (ICPC)}, pages 25--35, Delft, The Netherlands, 2021. Delft
+  University of Technology, Software Engineering Research Group.
+
+\bibitem{Manor2018AtomsConfusionSwift}
+I.~M.~V. Manor.
+\newblock Átomos de confusão em swift.
+\newblock Master's thesis, Federal University of Pernambuco, Center for
+  Informatics, Undergraduate in Computer Science, 2018.
+\newblock Bachelor's Thesis.
+
+\bibitem{mendes2022dazed}
+W.~Mendes, O.~Pinheiro, E.~Santos, L.~Rocha, and W.~Viana.
+\newblock Dazed and confused: Studying the prevalence of atoms of confusion in
+  long-lived java libraries.
+\newblock In {\em 2022 IEEE International Conference on Software Maintenance
+  and Evolution (ICSME)}, pages 106--116, Limassol, Cyprus, 2022.
+
+\bibitem{mendes2021bohr}
+W.~Mendes, W.~Viana, and L.~Rocha.
+\newblock Bohr - uma ferramenta para a identificação de Átomos de confusão
+  em códigos java.
+\newblock In {\em Anais do IX Workshop de Visualização, Evolução e
+  Manutenção de Software}, pages 41--45, Joinville, Brasil, 2021. SBC, Porto
+  Alegre, Brasil.
+
+\bibitem{torres2023investigation}
+A.~Torres, C.~Oliveira, M.~Okimoto, D.~Marcílio, P.~Queiroga, F.~Castor,
+  R.~Bonifácio, E.~D. Canedo, M.~Ribeiro, and E.~Monteiro.
+\newblock An investigation of confusing code patterns in javascript.
+\newblock {\em Journal of Systems and Software}, 203, 2023.
+
+\bibitem{yeh2017detecting}
+M.~K.-C. Yeh, D.~Gopstein, Y.~Yan, and Y.~Zhuang.
+\newblock Detecting and comparing brain activity in short program comprehension
+  using eeg.
+\newblock In {\em 2017 IEEE Frontiers in Education Conference (FIE)}, pages
+  1--5. IEEE, 2017.
+
+\end{thebibliography}
