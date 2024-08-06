@@ -145,25 +145,32 @@ While our previous parsers \cite{gopstein2018prevalence}
 have shown correlations between atoms, bugs, and 
 code comments, they have not succeeded in providing clear 
 definitions. Our goal is to develop a precise, easily 
-extendable, and reproducible methodology for identifying
+extensible, and reproducible methodology for identifying
 specific code patterns as atoms. To this end, we are actively 
 developing a framework that includes guidelines 
-to determine what is and is not an atom, based on our findings that increased occurrences of 
-comments and bug fixes are often correlated with the presence of atoms. 
+to determine what is and is not an atom, based on our findings that increased occurrences of comments and bug fixes are often 
+correlated with the presence of atoms. 
 
-First, we count the 
-occurrences of all Abstract Syntax Tree (AST) subtrees within a large open-source 
-project, as well as bug-fix commits and commented code 
-snippets. Next, we look for patterns of code that are correlated (or not correlated) with high frequencies of 
-bug fixes and comments. The former patterns are identified as atoms. Next, to test the significance in correlation, we will apply a formal statistical method like Hotelling’s T-Square method, to distinguish atoms from non-atoms. This approach aims 
-to provide a precise and objective answer to identify atoms, potentially uncovering additional 
+First, we count the occurrences of all Abstract Syntax Tree 
+(AST) subtrees within a large open-source project, as well as 
+within bug-fix commits and commented code snippets. Next, we 
+look for patterns of code that are correlated (or not 
+correlated) with high frequencies of bug fixes and comments. 
+The former patterns are identified as atoms. To test the 
+significance of these correlations, we will apply a formal 
+statistical method, such as Hotelling’s T-Square method, to 
+distinguish atoms from non-atoms.
+
+This approach aims to provide a precise and objective method 
+for identifying atoms, potentially uncovering additional 
 confusing patterns that were previously unrecognized. 
-Finally, researchers will be able to apply different 
-metrics other than comments and bug-fix frequencies by adding new dimensions, or substituting the measures we have chosen.
-This framework is  
-designed to support hypothesis testing among the community 
-members, assist future projects to 
-explore atoms in various programming languages, and enhance software reliability. 
+Researchers will also be able to apply different metrics 
+beyond comments and bug-fix frequencies by adding new 
+dimensions or substituting the measures we have chosen. This 
+framework is designed to support hypothesis testing among 
+community members, assist future projects in exploring atoms 
+in various programming languages, and enhance software 
+reliability.
 
 
 \subsection{Collaboration with the Industry}
