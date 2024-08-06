@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{castor2018identifying}
+F.~Castor.
+\newblock Identifying confusing code in swift programs.
+\newblock In {\em Proceedings of the VI CBSoft Workshop on Visualization,
+  Evolution, and Maintenance. ACM}, 2018.
+
 \bibitem{coccinelle}
 Coccinelle.
 \newblock \url{https://coccinelle.gitlabpages.inria.fr/website/}.
@@ -11,6 +17,13 @@ J.~da~Costa, R.~Gheyi, F.~Castor, P.~de~Oliveira, M.~Ribeiro, and B.~Fonseca.
   confusion on novices' code comprehension.
 \newblock {\em Empirical Software Engineering}, 28(4):81, 2023.
 \newblock Epub 2023 May 18. PMID: 37220598; PMCID: PMC10193347.
+
+\bibitem{da2023seeing}
+J.~A.~S. da~Costa, R.~Gheyi, F.~Castor, P.~R.~F. de~Oliveira, M.~Ribeiro, and
+  B.~Fonseca.
+\newblock Seeing confusion through a new lens: on the impact of atoms of
+  confusion on novices’ code comprehension.
+\newblock {\em Empirical Software Engineering}, 28(4):81, 2023.
 
 \bibitem{CPSQ2020}
 C.~for Information \& Software~Quality.
@@ -24,12 +37,30 @@ Coccinelle atom finder.
 \newblock \url{https://github.com/AtomsofConfusion/atom-finder-coccinelle}.
 \newblock Accessed: August 5, 2024.
 
+\bibitem{glasauer2024c}
+C.~Glasauer, M.~K. Yeh, L.~A. DeLong, Y.~Yan, and Y.~Zhuang.
+\newblock “{C}”ing the light -- assessing code comprehension in novice
+  programmers using {C} code patterns.
+\newblock {\em Computer Science Education}, pages 1--25, 2024.
+
+\bibitem{gopstein2017understanding}
+D.~Gopstein, J.~Iannacone, Y.~Yan, L.~DeLong, Y.~Zhuang, M.~K.-C. Yeh, and
+  J.~Cappos.
+\newblock Understanding misunderstandings in source code.
+\newblock In {\em Proceedings of the 2017 11th Joint Meeting on Foundations of
+  Software Engineering}, pages 129--139, 2017.
+
 \bibitem{gopstein2018prevalence}
 D.~Gopstein, H.~H. Zhou, P.~Frankl, and J.~Cappos.
 \newblock Prevalence of confusing code in software projects: Atoms of confusion
   in the wild.
 \newblock In {\em Proceedings of the 15th International Conference on Mining
   Software Repositories}, pages 281--291. ACM, 2018.
+
+\bibitem{hotelling1931}
+H.~Hotelling.
+\newblock The generalization of student's ratio.
+\newblock {\em Annals of Mathematical Statistics}, 2(3):360--378, 1931.
 
 \bibitem{langhout2021atoms}
 C.~Langhout and M.~Aniche.
@@ -60,6 +91,17 @@ W.~Mendes, W.~Viana, and L.~Rocha.
   Manutenção de Software}, pages 41--45, Joinville, Brasil, 2021. SBC, Porto
   Alegre, Brasil.
 
+\bibitem{oliveira2019impact}
+C.~Oliveira and A.~R.~F. Torres.
+\newblock On the impact of atoms of confusion in javascript code.
+\newblock 2019.
+
+\bibitem{tabosa2024dataset}
+D.~Tabosa, O.~Pinheiro, L.~Rocha, and W.~Viana.
+\newblock A dataset of atoms of confusion in the android open source project.
+\newblock In {\em 2024 IEEE/ACM 21st International Conference on Mining
+  Software Repositories (MSR)}, pages 520--524. IEEE, 2024.
+
 \bibitem{torres2023investigation}
 A.~Torres, C.~Oliveira, M.~Okimoto, D.~Marcílio, P.~Queiroga, F.~Castor,
   R.~Bonifácio, E.~D. Canedo, M.~Ribeiro, and E.~Monteiro.
@@ -72,5 +114,11 @@ M.~K.-C. Yeh, D.~Gopstein, Y.~Yan, and Y.~Zhuang.
   using eeg.
 \newblock In {\em 2017 IEEE Frontiers in Education Conference (FIE)}, pages
   1--5. IEEE, 2017.
+
+\bibitem{zhuang2023developer}
+Y.~Zhuang, Y.~Yan, L.~A. DeLong, and M.~K. Yeh.
+\newblock Do developer perceptions have borders? comparing {C} code responses
+  across continents.
+\newblock {\em Software Quality Journal}, pages 1--27, 2023.
 
 \end{thebibliography}
