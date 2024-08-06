@@ -29,7 +29,8 @@
   \newcommand{\todo}[1]{}
 \fi
 
-\title{Rooting Out Atoms Of Confusion -- A Call To Action}
+\title{Encourage, Engage, and
+Enhance a Community for Atoms of Confusion}
 
 \author{Justin Cappos${}^{\rm ny}$ \qquad Dan Gopstein${}^{\rm ny}$ \qquad Renata Vaderna${}^{\rm ny}$ \qquad Yanyan Zhuang${}^{\rm co}$\\
 ${}^{\rm ny}$\,New York University 
@@ -46,8 +47,7 @@ These small code patterns, named atoms of confusion
 (or atoms for short), are correlated with many bugs in software. This finding has been replicated by many 
 research teams. For example, atoms have been validated 
 in different programming languages including Java and 
-Python, and in a variety of ways such as using an 
-electroencephalogram (EEG) device.
+Python, and in a variety of ways such as using an EEG device.
 
 Since we have a growing community of academic teams, 
 we have set out to put our work into practice by 
@@ -84,7 +84,7 @@ Ensuring that software is understandable to
 humans is crucial yet challenging, often approached ad hoc.
 
 Our research has delved into the causes of code confusion for 
-human developers. We have identified and empirically validated 
+human developers. We have empirically validated 
 small C code patterns, termed \emph{atoms of confusion}, which 
 programmers often misinterpret~\cite{gopstein2017understanding}. Analyzing 14 large C projects 
 revealed hundreds of thousands of these atoms, highly 
@@ -96,7 +96,7 @@ This body of work has inspired a breadth of subsequent studies
 across various programming languages, employing methodologies 
 like eye-tracking and EEG to probe deeper into how programmers 
 interact with these confusing elements 
-\cite{langhout2021atoms, mendes2021bohr, mendes2022dazed, 
+\cite{langhout2021atoms, mendes2022dazed, 
 torres2023investigation, dacosta2023seeing, 
 Manor2018AtomsConfusionSwift, yeh2017detecting}.
 
@@ -153,13 +153,13 @@ further exploration into understanding these divisive
 elements.
 
 
-\subsection{A Framework for Classifying Atoms of Confusion}
+\subsection{A Framework for Parsing Atoms of Confusion}
 
 We have identified a core issue arising from the absence of a 
 formal definition of what constitutes an atom of confusion. 
-While our previous classifiers \cite{gopstein2018prevalence} 
-have shown correlations between atoms of confusion, bugs, and 
-confusing code, they have not succeeded in providing clear 
+While our previous parsers \cite{gopstein2018prevalence} 
+have shown correlations between atoms, bugs, and 
+code comments, they have not succeeded in providing clear 
 definitions. Our goal is to develop a precise, easily 
 extendable, and reproducible methodology for classifying 
 specific code patterns as atoms. To this end, we are actively 
