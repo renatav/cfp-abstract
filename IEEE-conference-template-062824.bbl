@@ -15,8 +15,7 @@ Coccinelle.
 J.~da~Costa, R.~Gheyi, F.~Castor, P.~de~Oliveira, M.~Ribeiro, and B.~Fonseca.
 \newblock Seeing confusion through a new lens: on the impact of atoms of
   confusion on novices' code comprehension.
-\newblock {\em Empirical Software Engineering}, 28(4):81, 2023.
-\newblock Epub 2023 May 18. PMID: 37220598; PMCID: PMC10193347.
+\newblock {\em Empirical Software Engineering}, 28(4), 2023.
 
 \bibitem{da2023seeing}
 J.~A.~S. da~Costa, R.~Gheyi, F.~Castor, P.~R.~F. de~Oliveira, M.~Ribeiro, and
@@ -55,7 +54,7 @@ D.~Gopstein, H.~H. Zhou, P.~Frankl, and J.~Cappos.
 \newblock Prevalence of confusing code in software projects: Atoms of confusion
   in the wild.
 \newblock In {\em Proceedings of the 15th International Conference on Mining
-  Software Repositories}, pages 281--291. ACM, 2018.
+  Software Repositories}, pages 281--291, 2018.
 
 \bibitem{hotelling1931}
 H.~Hotelling.
@@ -66,8 +65,7 @@ H.~Hotelling.
 C.~Langhout and M.~Aniche.
 \newblock Atoms of confusion in java.
 \newblock In {\em 2021 IEEE/ACM 29th International Conference on Program
-  Comprehension (ICPC)}, pages 25--35, Delft, The Netherlands, 2021. Delft
-  University of Technology, Software Engineering Research Group.
+  Comprehension (ICPC)}, pages 25--35, 2021.
 
 \bibitem{Manor2018AtomsConfusionSwift}
 I.~M.~V. Manor.
@@ -81,15 +79,7 @@ W.~Mendes, O.~Pinheiro, E.~Santos, L.~Rocha, and W.~Viana.
 \newblock Dazed and confused: Studying the prevalence of atoms of confusion in
   long-lived java libraries.
 \newblock In {\em 2022 IEEE International Conference on Software Maintenance
-  and Evolution (ICSME)}, pages 106--116, Limassol, Cyprus, 2022.
-
-\bibitem{mendes2021bohr}
-W.~Mendes, W.~Viana, and L.~Rocha.
-\newblock Bohr - uma ferramenta para a identificação de Átomos de confusão
-  em códigos java.
-\newblock In {\em Anais do IX Workshop de Visualização, Evolução e
-  Manutenção de Software}, pages 41--45, Joinville, Brasil, 2021. SBC, Porto
-  Alegre, Brasil.
+  and Evolution (ICSME)}, Limassol, Cyprus, 2022.
 
 \bibitem{oliveira2019impact}
 C.~Oliveira and A.~R.~F. Torres.
@@ -100,7 +90,7 @@ C.~Oliveira and A.~R.~F. Torres.
 D.~Tabosa, O.~Pinheiro, L.~Rocha, and W.~Viana.
 \newblock A dataset of atoms of confusion in the android open source project.
 \newblock In {\em 2024 IEEE/ACM 21st International Conference on Mining
-  Software Repositories (MSR)}, pages 520--524. IEEE, 2024.
+  Software Repositories (MSR)}, pages 520--524, 2024.
 
 \bibitem{torres2023investigation}
 A.~Torres, C.~Oliveira, M.~Okimoto, D.~Marcílio, P.~Queiroga, F.~Castor,
@@ -113,12 +103,12 @@ M.~K.-C. Yeh, D.~Gopstein, Y.~Yan, and Y.~Zhuang.
 \newblock Detecting and comparing brain activity in short program comprehension
   using eeg.
 \newblock In {\em 2017 IEEE Frontiers in Education Conference (FIE)}, pages
-  1--5. IEEE, 2017.
+  1--5, 2017.
 
 \bibitem{zhuang2023developer}
 Y.~Zhuang, Y.~Yan, L.~A. DeLong, and M.~K. Yeh.
 \newblock Do developer perceptions have borders? comparing {C} code responses
   across continents.
-\newblock {\em Software Quality Journal}, pages 1--27, 2023.
+\newblock {\em Software Quality Journal}, 2023.
 
 \end{thebibliography}
