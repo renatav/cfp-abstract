@@ -141,22 +141,21 @@ elements.
 
 \subsection{A Framework for Parsing Atoms of Confusion}
 
-We have identified a core issue arising from the absence of a 
-formal definition of what constitutes an atom of confusion. 
+%We have identified a core issue arising from the absence of a 
+%formal definition of what constitutes an atom of confusion. 
 While our previous parsers \cite{gopstein2018prevalence} 
 have shown correlations between atoms, bugs, and 
 code comments, they have not succeeded in providing clear 
 definitions. Our goal is to develop a precise, easily 
-extendable, and reproducible methodology for classifying 
+extendable, and reproducible methodology for identifying
 specific code patterns as atoms. To this end, we are actively 
-developing a framework that includes mathematical guidelines 
-to determine what is and isn't an atom. This framework is not 
-only designed to support hypothesis testing among community 
-members but also to pave the way for future applications to 
-explore atoms in various programming languages. This effort 
-builds upon our findings that increased frequencies of 
-comments and bug fixes often indicate the presence of atoms, 
-reinforcing their significant impact on software reliability.
+developing a framework that includes guidelines 
+to determine what is and is not an atom, based on our findings that increased occurrences of 
+comments and bug fixes are often correlated with the presence of atoms. 
+This framework is  
+designed to support hypothesis testing among the community 
+members, assist future projects to 
+explore atoms in various programming languages, and enhance software reliability. 
 
 The main idea behind this ongoing research is to count 
 occurrences of all AST subtrees within large open source 
