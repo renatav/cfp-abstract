@@ -63,24 +63,23 @@ US alone in 2020, as reported by the Consortium for
 Information \& Software Quality (CISQ) \cite{CPSQ2020}. 
 Addressing these bugs efficiently before they cause damage is 
 crucial in both industry and academia.
-
+%
 Code review serves as a cornerstone of quality assurance in 
 both open source and proprietary projects. Research highlights 
 that inadequate code reviews are linked to diminished software 
-quality, the emergence of anti-patterns, and increased post-
-release defects. Ensuring that software is understandable to 
-humans is crucial yet challenging, often approached in an ad 
-hoc manner.
+quality, the emergence of anti-patterns, and increased 
+post-release defects. \yanyan{Should have a citation here?} Ensuring that software is understandable to 
+humans is crucial yet challenging, often approached ad hoc.
 
 Our research has delved into the causes of code confusion for 
-human readers. We have identified and empirically validated 
+human developers. We have identified and empirically validated 
 small C code patterns, termed \emph{atoms of confusion}, which 
-programmers often misinterpret. Analyzing 14 large C projects 
+programmers often misinterpret~\cite{gopstein2017understanding}. Analyzing 14 large C projects 
 revealed hundreds of thousands of these atoms, highly 
 correlated with both comments and bug fixes, underscoring 
 their profound impact on software reliability 
 \cite{gopstein2018prevalence}.
-
+%
 This body of work has inspired a breadth of subsequent studies 
 across various programming languages, employing methodologies 
 like eye-tracking and EEG to probe deeper into how programmers 
