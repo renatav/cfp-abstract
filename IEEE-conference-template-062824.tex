@@ -145,7 +145,7 @@ correlated with the presence of atoms.
 
 First, we count the occurrences of all Abstract Syntax Tree 
 (AST) subtrees within a large open-source project, as well as 
-within bug-fix commits and commented code snippets. Next, we 
+the ASTs in commented code snippets and code removed by bug-fix commits. Next, we 
 look for patterns of code that are correlated (or not 
 correlated) with high frequencies of bug fixes and comments. 
 The former patterns are identified as atoms. To test the 
@@ -184,7 +184,7 @@ Unlike traditional patches, Coccinelle's semantic patches can modify hundreds
 of files across thousands of code sites by abstracting away specific details
 and variations \cite{coccinelle}.
 
-Given its extensive use, and in collaboration with the 
+Given its extensive use and our collaboration with the 
 maintainers of Coccinelle, we have implemented atom parsers 
 using this tool. While our primary focus is on the Linux 
 kernel, Coccinelle can be used to process any C code. 
